@@ -173,6 +173,19 @@ a {
   border-color: var(--accent-soft);
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link:focus .card,
+.card-link:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(15, 17, 21, 0.12);
+  border-color: var(--accent-soft);
+}
+
 .page {
   padding: 36px 0 28px;
 }
