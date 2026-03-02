@@ -129,5 +129,11 @@
         <p class="muted">© 2026 STRYD. All rights reserved.</p>
       </div>
     </footer>
+    <script>
+      if (window.location.hash) {
+        window.history.replaceState(null, "", window.location.pathname);
+        window.scrollTo(0, 0);
+      }
+    </script>
   </body>
 </html>
